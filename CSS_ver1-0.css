@@ -1,11 +1,27 @@
 #header-bottom-left>.redditname a
 {
-background: url(%%banner2shifted%%) no-repeat;
-height: 100px;
-width: 1800px;
+display: url(%%e3555c8603744e954461a0d2b1975db6%%) no-repeat;
+height: 50px;
 float: left;
 text-indent: 9001px;
 }
+
+#header-img{
+display: none!important;
+}
+
+#header{
+display: url(%%banner2shifted%%);
+background: url(%%banner2shifted%%) no-repeat;
+height: 100px
+}
+
+.tabmenu 
+{
+display: none!important;
+float: left;
+}
+
 
 .subscribers .word, .users-online .word{
 display:none;
