@@ -32,3 +32,13 @@ content: " Literature Club Members"
 .users-online .number:after { 
 content: " People in a Space Classroom" 
 }
+
+.side .bottom * { display: none; }
+.side .bottom {
+    font-size: 0;
+    content: '';
+}
+.side .bottom:before {
+    font-size: x-small;
+    content: 'created by Monika';
+}
