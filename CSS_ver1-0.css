@@ -1,12 +1,10 @@
-#header{
-display: url(%%maxresdefault%%);
-background: url(%%maxresdefault%%) no-repeat;
-height: 200px
-}
-
-.pagename a
+#header-bottom-left>.redditname a
 {
-color: #fff;
+background: url(%%banner2shifted%%) no-repeat;
+height: 100px;
+width: 1800px;
+float: left;
+text-indent: 9001px;
 }
 
 .subscribers .word, .users-online .word{
