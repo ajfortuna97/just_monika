@@ -1,0 +1,20 @@
+#header{
+display: url(%%maxresdefault%%);
+background: url(%%maxresdefault%%) no-repeat;
+height: 200px
+}
+
+.pagename a
+{
+color: #fff;
+}
+
+.subscribers .word, .users-online .word{
+display:none;
+}
+.subscribers .number:after { 
+content: " Literature Club Members"
+}
+.users-online .number:after { 
+content: " People in a Space Classroom" 
+}
